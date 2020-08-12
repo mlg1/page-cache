@@ -38,7 +38,7 @@ Install the `page-cache` package with composer:
 
 ```
 $ composer config repositories.repo-name vcs https://github.com/mlg1/page-cache.git
-$ composer require silber/page-cache
+$ composer require silber/page-cache:master
 ```
 
 ### Service Provider
