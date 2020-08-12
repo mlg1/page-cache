@@ -1,4 +1,5 @@
 # Laravel Page Cache
+## Allows the use of the plugin in multi-domain projects.
 
 <a href="https://github.com/JosephSilber/page-cache/actions"><img src="https://github.com/JosephSilber/page-cache/workflows/Tests/badge.svg" alt="Build Status"></a>
 [![Latest Stable Version][ico-version]][link-packagist]
@@ -36,6 +37,7 @@ Using the middleware included in this package, you can selectively cache the res
 Install the `page-cache` package with composer:
 
 ```
+$ composer config repositories.repo-name vcs https://github.com/mlg1/page-cache.git
 $ composer require silber/page-cache
 ```
 
